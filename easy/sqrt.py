@@ -12,4 +12,4 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        return round(x**(1/2))
+        return int(x**0.5)
